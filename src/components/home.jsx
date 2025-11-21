@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_BASE = "http://localhost:3001";
+const API_BASE = "https://foodbackend-2-fjv5.onrender.com";
 
 function AppLoader({ children, duration = 1400 }) {
   const [showLoader, setShowLoader] = useState(true);
