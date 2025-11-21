@@ -1,7 +1,7 @@
 import {create} from "zustand";
 import axios from "axios";
 
-const BASE_URL="https://foodbackend-2-fjv5.onrender.com/api/products";
+const BASE_URL="https://foodbackend-2-fjv5.onrender.com";
 
 export const useProduct=create((set,get)=>({
     products:[],
