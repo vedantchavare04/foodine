@@ -4,17 +4,17 @@ Foodine is a modern food-ordering platform built with Vite + React on the fronte
 The backend is deployed on Render, and the frontend is hosted on Vercel for fast, scalable performance.
 
 **🚀 Tech Stack**<br/>
-Frontend-
+**Frontend-**
 
 React
 
 Vite
 
-CSS / Tailwind (if used)
+CSS
 
 Hosted on Vercel
 
-Backend-
+**Backend-**
 
 Node.js
 
@@ -22,7 +22,7 @@ Express.js
 
 Hosted on Render
 
-Database
+**Database**
 
 Neon Serverless PostgreSQL (SQL type database)
 
@@ -59,10 +59,11 @@ Backend
 npm src/server.js
 
 **🌍 Deployment Details**
-Service	URL
-Frontend (Vercel)	foodine-seven.vercel.app
 
-Backend (Render) (https://foodbackend-2-fjv5.onrender.com)
+**Service	URL**
+Frontend (Vercel)-	foodine-seven.vercel.app
+
+Backend (Render)- (https://foodbackend-2-fjv5.onrender.com)
 
 Replace URLs with your actual deployed endpoints.
 
@@ -79,4 +80,5 @@ This project is licensed under the MIT License.
 🍔 Foodine — Food delivered with speed & simplicity!
 
 **Important Note**
+
 Sometimes products on the website might not render as backend servers usually are not free to access,I have hosted my backend on render and it shuts down due to inactivity with a minute(due to free access).Products or the way you login sometimes may not work.
