@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+##"🍽️ Foodine"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Foodine is a modern food-ordering platform built with Vite + React on the frontend and Node.js + Express on the backend. It uses Neon Serverless PostgreSQL as the main database.
+The backend is deployed on Render, and the frontend is hosted on Vercel for fast, scalable performance.
 
-## Available Scripts
+🚀 Tech Stack
+Frontend
 
-In the project directory, you can run:
+React
 
-### `npm start`
+Vite
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+CSS / Tailwind (if used)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Hosted on Vercel
 
-### `npm test`
+Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Node.js
 
-### `npm run build`
+Express.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Hosted on Render
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Database
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Neon Serverless PostgreSQL (SQL type database)
 
-### `npm run eject`
+📌 Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✔ User-friendly interface for browsing food items
+✔ Add-to-cart and order processing functionality
+✔ Secure backend API for managing users & products
+✔ Modern & scalable deployment setup
+✔ Fast performance using Vite + serverless hosting
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔧 Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/yourusername/Foodine.git
+cd Foodine
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2️⃣ Install dependencies
+Frontend
+cd frontend
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Backend
+cd backend
+npm install
 
-## Learn More
+3️⃣ Create a .env file in the backend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Add all necessary environment variables:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+DATABASE_URL=your_neon_postgresql_url
+PORT=your_backend_port
+JWT_SECRET=your_secret_key
 
-### Code Splitting
+4️⃣ Run the application
+Frontend
+npm run dev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Backend
+npm start
 
-### Analyzing the Bundle Size
+🌍 Deployment Details
+Service	URL
+Frontend (Vercel)	https://your-frontend-url.vercel.app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Backend (Render)	https://your-backend-url.onrender.com
 
-### Making a Progressive Web App
+Replace URLs with your actual deployed endpoints.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📁 Project Structure
+Foodine/
+│
+├── frontend/       # React + Vite app
+│   ├── src/
+│   └── ...
+│
+├── backend/        # Node + Express API
+│   ├── routes/
+│   ├── controllers/
+│   ├── models/
+│   └── ...
+│
+└── README.md
 
-### Advanced Configuration
+🤝 Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feel free to fork the repo and submit pull requests!
+If you find any bugs or have improvement ideas, open an issue.
 
-### Deployment
+📜 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is licensed under the MIT License.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🍔 Foodine — Food delivered with speed & simplicity!
