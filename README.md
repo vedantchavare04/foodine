@@ -60,7 +60,7 @@ npm src/server.js
 
 **🌍 Deployment Details**
 
-**Service	URL**
+**Service	URL**<br/>
 Frontend (Vercel)-	foodine-seven.vercel.app
 
 Backend (Render)- (https://foodbackend-2-fjv5.onrender.com)
