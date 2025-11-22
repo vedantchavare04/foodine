@@ -1,10 +1,10 @@
-##**🍽️ Foodine**
+**🍽️ Foodine**
 
 Foodine is a modern food-ordering platform built with Vite + React on the frontend and Node.js + Express on the backend. It uses Neon Serverless PostgreSQL as the main database.
 The backend is deployed on Render, and the frontend is hosted on Vercel for fast, scalable performance.
 
-##**🚀 Tech Stack**
-##Frontend
+**🚀 Tech Stack**<br/>
+Frontend
 
 React
 
