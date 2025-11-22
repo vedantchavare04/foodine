@@ -1,10 +1,10 @@
-##"🍽️ Foodine"
+##**🍽️ Foodine**
 
 Foodine is a modern food-ordering platform built with Vite + React on the frontend and Node.js + Express on the backend. It uses Neon Serverless PostgreSQL as the main database.
 The backend is deployed on Render, and the frontend is hosted on Vercel for fast, scalable performance.
 
-🚀 Tech Stack
-Frontend
+##**🚀 Tech Stack**
+##Frontend
 
 React
 
@@ -14,7 +14,7 @@ CSS / Tailwind (if used)
 
 Hosted on Vercel
 
-Backend
+##Backend
 
 Node.js
 
@@ -26,7 +26,7 @@ Database
 
 Neon Serverless PostgreSQL (SQL type database)
 
-📌 Features
+##**📌 Features**
 
 ✔ User-friendly interface for browsing food items
 ✔ Add-to-cart and order processing functionality
@@ -34,7 +34,7 @@ Neon Serverless PostgreSQL (SQL type database)
 ✔ Modern & scalable deployment setup
 ✔ Fast performance using Vite + serverless hosting
 
-🔧 Installation & Setup
+##**🔧 Installation & Setup**
 1️⃣ Clone the repository
 git clone https://github.com/yourusername/Foodine.git
 cd Foodine
@@ -63,28 +63,35 @@ npm run dev
 Backend
 npm start
 
-🌍 Deployment Details
+##**🌍 Deployment Details**
 Service	URL
-Frontend (Vercel)	https://your-frontend-url.vercel.app
+Frontend (Vercel)	foodine-seven.vercel.app
 
-Backend (Render)	https://your-backend-url.onrender.com
+Backend (Render) (https://foodbackend-2-fjv5.onrender.com)
 
 Replace URLs with your actual deployed endpoints.
 
-📁 Project Structure
 Foodine/
 │
-├── frontend/       # React + Vite app
-│   ├── src/
-│   └── ...
-│
-├── backend/        # Node + Express API
+├── src/
 │   ├── routes/
-│   ├── controllers/
-│   ├── models/
+│   │   ├── prodcontrol.js
+│   │   └── ...
+│   │
+│   ├── store/
+│   │   ├── useProduct.js
+│   │   └── ...
+│   │
+│   ├── prodroute.js
+│   ├── db.js
+│   ├── server.js
 │   └── ...
 │
-└── README.md
+├── .env
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── node_modules/
 
 🤝 Contribution
 
